@@ -1,0 +1,82 @@
+mark {
+  background: #fff28e!important
+}
+
+.App-header .Button--link {
+  color: #fff
+}
+
+.Header-navigation {
+  margin-right: 15px!important
+}
+
+.NotificationsDropdown-unread {
+  color: #fff
+}
+
+.NotificationsDropdown-unread, .Navigation-drawer.new:after {
+  background: #ea4335!important;
+  border-color: #ea4335;
+  box-shadow: 0 1px 1px #666
+}
+
+.NotificationList-header .Button {
+  color: #667a99!important
+}
+
+.Button.IndexPage-newDiscussion, .item-sort .Select-input, .IndexPage-toolbar-action .Button {
+  box-shadow: 0 1px 1px #ccc;
+  &:active {
+    box-shadow: none
+  }
+}
+
+.Post-body img {
+  border: 1px solid #eee;
+  &.emoji {
+    border: 0
+  }
+}
+
+@media (max-width: 767px) {
+  .App-primaryControl > .Button, .App-backControl > .Button {
+    color: #fff!important
+  }
+
+  .normal .ComposerBody-header > li:first-child h3 {
+    color: #fff!important
+  }
+}
+
+@media (min-width: 768px) {
+  .App-header {
+    .Button {
+      color: #fff;
+      &:hover {
+        color: #fff
+      }
+      &:active, &.active, &:focus, &.focus {
+        color: #fff
+      }
+    }
+
+    .Button--link, .Search-input {
+      color: #fff
+    }
+
+    .open > .Dropdown-toggle.Button {
+      color: #fff
+    }
+  }
+
+  .Composer.active:not(.fullScreen) {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35)
+  }
+}
+
+::selection {
+  background: rgba(56, 116, 166, 0.74);
+  color: #fff;
+  text-shadow: none
+}
