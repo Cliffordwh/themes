@@ -2,7 +2,7 @@
 
 ### Usage
 
-Set colors to `#3572a5`.
+Set **Colors** to `#3572a5`.
 
 Set the **Colored Header** on.
 
